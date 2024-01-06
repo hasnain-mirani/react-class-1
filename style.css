@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    border: 2px solid red;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.item{
+    background-color: chartreuse;
+    margin: 10px;
+  
+}
+.item1{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
